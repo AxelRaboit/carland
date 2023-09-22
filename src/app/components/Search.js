@@ -1,10 +1,7 @@
 'use client';
 
-// search context
 import { useContext } from 'react';
 import { SearchContext } from '../context/search';
-
-// components
 import LocationSelection from './LocationSelection';
 import DateSelection from './DateSelection';
 import HoursSelection from './HoursSelection';
