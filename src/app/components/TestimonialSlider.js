@@ -46,7 +46,7 @@ const TestimonialSlider = () => {
           const { message, avatar, name, job } = person;
           return (
             <SwiperSlide key={index}>
-              <div className='flex flex-col justify-center items-center text-center'>
+              <div className='flex flex-col justify-center items-center text-center cursor-grab'>
                 <FaQuoteLeft className='text-7xl text-accent mb-6' />
                 <div className='text-2xl xl:text-4xl max-w-[874px] mb-12 font-medium'>
                   {message}
