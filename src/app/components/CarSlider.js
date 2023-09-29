@@ -30,10 +30,10 @@ const cars = [
                 icon: "icons/carSlider/gas.svg",
                 text: "Gas",
             },
-            {
+            /* {
                 icon: "icons/carSlider/engine.svg",
                 text: "1600 HP",
-            },
+            }, */
             {
                 icon: "icons/carSlider/wheel.svg",
                 text: "Front",
@@ -59,10 +59,10 @@ const cars = [
                 icon: "icons/carSlider/gas.svg",
                 text: "Gas",
             },
-            {
+            /* {
                 icon: "icons/carSlider/engine.svg",
                 text: "1600 HP",
-            },
+            }, */
             {
                 icon: "icons/carSlider/wheel.svg",
                 text: "Front",
@@ -88,10 +88,10 @@ const cars = [
                 icon: "icons/carSlider/gas.svg",
                 text: "Gas",
             },
-            {
+            /* {
                 icon: "icons/carSlider/engine.svg",
                 text: "1600 HP",
-            },
+            }, */
             {
                 icon: "icons/carSlider/wheel.svg",
                 text: "Front",
@@ -117,10 +117,10 @@ const cars = [
                 icon: "icons/carSlider/gas.svg",
                 text: "Gas",
             },
-            {
+            /* {
                 icon: "icons/carSlider/engine.svg",
                 text: "1600 HP",
-            },
+            }, */
             {
                 icon: "icons/carSlider/wheel.svg",
                 text: "Front",
@@ -146,10 +146,10 @@ const cars = [
                 icon: "icons/carSlider/gas.svg",
                 text: "Gas",
             },
-            {
+            /* {
                 icon: "icons/carSlider/engine.svg",
                 text: "1600 HP",
-            },
+            }, */
             {
                 icon: "icons/carSlider/wheel.svg",
                 text: "Front",
@@ -175,10 +175,10 @@ const cars = [
                 icon: "icons/carSlider/gas.svg",
                 text: "Gas",
             },
-            {
+            /* {
                 icon: "icons/carSlider/engine.svg",
                 text: "1600 HP",
-            },
+            }, */
             {
                 icon: "icons/carSlider/wheel.svg",
                 text: "Front",
