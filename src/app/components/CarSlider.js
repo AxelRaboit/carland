@@ -202,7 +202,7 @@ const CarSlider = () => {
                 {cars.map((car, index) => {
                     return (
                         <SwiperSlide key={index}>
-                            <div className="max-w-[385px] mx-auto sm:mx-0">
+                            <div className="max-w-[385px] mx-auto sm:mx-0 cursor-grab">
                                 <Image
                                     src={car.image}
                                     width={380}
