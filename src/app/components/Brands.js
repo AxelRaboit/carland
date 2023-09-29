@@ -19,7 +19,7 @@ export default function Brands() {
                             src={"icons/brands/ford.svg"}
                             width={85}
                             height={32}
-                            alt=""
+                            alt="ford brand"
                         />
                     </div>
                     <div>
@@ -27,7 +27,7 @@ export default function Brands() {
                             src={"icons/brands/mercedes.svg"}
                             width={60}
                             height={60}
-                            alt=""
+                            alt="mercedes brand"
                         />
                     </div>
                     <div>
@@ -35,7 +35,7 @@ export default function Brands() {
                             src={"icons/brands/audi.svg"}
                             width={85}
                             height={50}
-                            alt=""
+                            alt="audi brand"
                         />
                     </div>
                     <div>
@@ -43,7 +43,7 @@ export default function Brands() {
                             src={"icons/brands/bmw.svg"}
                             width={60}
                             height={60}
-                            alt=""
+                            alt="bmw brand"
                         />
                     </div>
                     <div>
@@ -59,7 +59,7 @@ export default function Brands() {
                             src={"icons/brands/skoda.svg"}
                             width={60}
                             height={60}
-                            alt=""
+                            alt="skoda brand"
                         />
                     </div>
                     <div>
@@ -67,7 +67,7 @@ export default function Brands() {
                             src={"icons/brands/mazda.svg"}
                             width={62}
                             height={50}
-                            alt=""
+                            alt="mazda brand"
                         />
                     </div>
                 </div>
