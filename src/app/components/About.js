@@ -17,7 +17,7 @@ const About = () => {
     return (
         <section className="section flex items-center" id="about" ref={ref}>
             <div className="container mx-auto">
-                <div className="flex flex-col xl:flex-row xl:justify-between">
+                <div className="container flex flex-col xl:flex-row xl:justify-between">
                     <motion.div
                         variants={fadeIn("up", 0.2)}
                         initial="hidden"
