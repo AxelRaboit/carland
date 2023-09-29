@@ -30,10 +30,10 @@ const cars = [
                 icon: "icons/carSlider/gas.svg",
                 text: "Gas",
             },
-            /* {
+            {
                 icon: "icons/carSlider/engine.svg",
                 text: "1600 HP",
-            }, */
+            },
             {
                 icon: "icons/carSlider/wheel.svg",
                 text: "Front",
@@ -59,10 +59,10 @@ const cars = [
                 icon: "icons/carSlider/gas.svg",
                 text: "Gas",
             },
-            /* {
+            {
                 icon: "icons/carSlider/engine.svg",
                 text: "1600 HP",
-            }, */
+            },
             {
                 icon: "icons/carSlider/wheel.svg",
                 text: "Front",
@@ -88,10 +88,10 @@ const cars = [
                 icon: "icons/carSlider/gas.svg",
                 text: "Gas",
             },
-            /* {
+            {
                 icon: "icons/carSlider/engine.svg",
                 text: "1600 HP",
-            }, */
+            },
             {
                 icon: "icons/carSlider/wheel.svg",
                 text: "Front",
@@ -117,10 +117,10 @@ const cars = [
                 icon: "icons/carSlider/gas.svg",
                 text: "Gas",
             },
-            /* {
+            {
                 icon: "icons/carSlider/engine.svg",
                 text: "1600 HP",
-            }, */
+            },
             {
                 icon: "icons/carSlider/wheel.svg",
                 text: "Front",
@@ -146,10 +146,10 @@ const cars = [
                 icon: "icons/carSlider/gas.svg",
                 text: "Gas",
             },
-            /* {
+            {
                 icon: "icons/carSlider/engine.svg",
                 text: "1600 HP",
-            }, */
+            },
             {
                 icon: "icons/carSlider/wheel.svg",
                 text: "Front",
@@ -175,10 +175,10 @@ const cars = [
                 icon: "icons/carSlider/gas.svg",
                 text: "Gas",
             },
-            /* {
+            {
                 icon: "icons/carSlider/engine.svg",
                 text: "1600 HP",
-            }, */
+            },
             {
                 icon: "icons/carSlider/wheel.svg",
                 text: "Front",
@@ -258,11 +258,11 @@ const CarSlider = () => {
                                                 key={index}
                                                 className="flex flex-col items-center"
                                             >
-                                                <div className="bg-primary w-12 h-12 rounded-full flex justify-center items-center mb-2">
+                                                <div className="bg-primary w-6 h-6 rounded-full flex justify-center items-center mb-2">
                                                     <Image
                                                         src={item.icon}
-                                                        width={24}
-                                                        height={24}
+                                                        width={14}
+                                                        height={14}
                                                         alt=""
                                                     />
                                                 </div>
