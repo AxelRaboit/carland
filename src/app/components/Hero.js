@@ -70,7 +70,7 @@ export default function Hero() {
                         <Image
                             src={"/images/hero/car.svg"}
                             fill
-                            alt=""
+                            alt="car"
                             style={{ objectFit: "contain" }}
                             priority
                         />
