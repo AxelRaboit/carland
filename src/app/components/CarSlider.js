@@ -224,7 +224,7 @@ const CarSlider = () => {
                                             {car.name}
                                         </h3>
                                         <div className="mb-1 text-accent font-semibold uppercase">
-                                            {car.price}/day
+                                            ${car.price}/day
                                         </div>
                                     </div>
                                     <div className="flex gap-x-2 text-accent h-max">
