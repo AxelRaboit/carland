@@ -1,6 +1,10 @@
 "use client";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 import Image from "next/image";
 import { FaStar } from "react-icons/fa";
 import { motion } from "framer-motion";
@@ -193,6 +197,8 @@ const CarSlider = () => {
             className="container mx-auto"
         >
             <Swiper
+                modules={[Navigation, Pagination, Scrollbar, A11y]}
+                loop={true}
                 breakpoints={{
                     320: { slidesPerView: 1, spaceBetween: 15 },
                     640: { slidesPerView: 2, spaceBetween: 32 },
