@@ -215,7 +215,7 @@ const CarSlider = () => {
                                     height={284}
                                     alt="car"
                                 />
-                                <div className="flex justify-between">
+                                <div className="flex flex-col justify-between mb-10">
                                     <div>
                                         <div className="text-[13px] text-secondary uppercase">
                                             {car.type}
@@ -223,7 +223,7 @@ const CarSlider = () => {
                                         <h3 className="text-lg uppercase font-bold">
                                             {car.name}
                                         </h3>
-                                        <div className="mb-10 text-accent font-semibold uppercase">
+                                        <div className="mb-1 text-accent font-semibold uppercase">
                                             {car.price}/day
                                         </div>
                                     </div>
