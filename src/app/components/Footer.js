@@ -97,15 +97,15 @@ const Footer = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit.
                         </div>
-                        <form className="flex gap-x-2 h-14">
+                        <form className="flex flex-col md:flex-row gap-x-2 h-14">
                             <input
                                 type="text"
                                 placeholder="Your email"
-                                className="outline-none bg-white h-full border rounded-lg pl-4 focus:border-accent"
+                                className="outline-none bg-white h-full border rounded-lg pl-4 p-3 focus:border-accent"
                             />
                             <button
                                 type="submit"
-                                className="btn btn-sm btn-accent w-24"
+                                className="btn btn-sm btn-accent w-full md:w-24 p-4 mt-4 md:mt-0"
                             >
                                 Submit
                             </button>
